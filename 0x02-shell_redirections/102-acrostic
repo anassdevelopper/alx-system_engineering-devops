@@ -1,0 +1,2 @@
+#!/bin/bash
+tr '\n' ' ' | grep -o '\b[a-zA-Z]' | tr -d '\n' && echo
